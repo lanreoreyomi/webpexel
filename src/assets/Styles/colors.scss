@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+$textColor: #18071B;
+$headerColor:  #1a0f7c;
+$backgroundColor: #FAFBFE;
+$textHighlight: #ED542C;
+$headerFont: 'Open Sans', sans-serif;
+$textFont: 'Quicksand', sans-serif;
+$textDecor:'Alegreya Sans', sans-serif;
+$headerFont2:  'Poppins', sans-serif;
+$alt-bg: #dddbea;
+$alt-bg2: #C1B398;
+
+
+.html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  line-height: 35px;
+}
