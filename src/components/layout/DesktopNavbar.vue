@@ -8,7 +8,7 @@
       <div id="nav-items">
         <ul>
           <li>
-            <router-link :to="{name: 'Home'}" class="router-link" exact  v-scroll-to="'#home'">Home</router-link>
+            <router-link :to="{name: 'Home'}" class="router-link" exact v-scroll-to="'#home'">Home</router-link>
           </li>
 
           <li @click="toggleMenu=!toggleMenu">
@@ -17,9 +17,8 @@
           <li @click="toggleMenu=!toggleMenu">
             <a class="button1" v-scroll-to="'#skillSet'">Projects </a>
           </li>
-          <li>
+          <li id="career-li">
             <router-link :to="{name: 'Portfolio'}" class="router-link  career" v-scroll-to="'#home-c'">Portfolio
-              <img src="https://img.icons8.com/color/28/000000/arrow--v2.png" alt="arrow-right"/>
             </router-link>
           </li>
 
@@ -67,6 +66,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "src/assets/Styles/Buttons";
 @import "src/assets/Styles/colors";
 
 * {
@@ -76,16 +76,20 @@ export default {
 }
 
 #desktopNav {
-  position: relative;
   z-index: 9999 !important;
 
   .db {
-    background: #F1F2F6 !important;
+    background: white  !important;
 
     ul {
       li {
+        background: lighten(#7f8fa6, 30%) !important;
         a {
-          color: $headerColor !important;
+          color: $headerColor !important ;
+
+        }
+        &:hover{
+          color: $textHighlight;
         }
       }
     }
@@ -100,7 +104,7 @@ export default {
     top: 0;
     z-index: 999;
     width: 100%;
-    background: $headerColor ;
+    background: $headerColor;
     #nav-logo {
       width: 35%;
       padding: 20px;
@@ -117,30 +121,8 @@ export default {
       margin: 0 auto;
       width: 65%;
       display: flex;
+      padding: 12px;
 
-      .career {
-        background: $textHighlight !important;
-        border-radius: 6px;
-        padding: 6px;
-        color: $headerColor !important;
-        border: 2px solid $textHighlight !important;
-        img {
-          display: none;
-          width: 60px;
-          padding: 0 !important;
-          margin: 0 !important;
-          text-align: center;
-          justify-content: center;
-          align-items: center;
-        }
-
-        &:hover {
-          img {
-            display: inline;
-
-          }
-        }
-      }
 
       ul {
         margin: 0 auto;
@@ -149,35 +131,33 @@ export default {
         li {
           display: inline-block;
           list-style: none;
-          padding: 20px;
+          @include Button();
+          width: 150px;
 
           a {
-            color: white;
+            color: #7f8fa6;
             font-family: 'Poppins', sans-serif;
             text-align: center;
             cursor: pointer;
             text-decoration: none;
+
             &:hover {
               text-decoration: none;
               text-underline: none;
-              color: #7f8fa6;
+              color: white;
 
             }
+
           }
 
           .router-link-active {
             border-radius: 6px;
             color: $textHighlight;
-            border-bottom: none !important;
-            padding: 8px;
-            //color: $headerColor !important;
+
+
           }
 
           .router-link {
-            img {
-              width: 15px;
-              display: none;
-            }
 
             &:hover {
               img {
@@ -185,7 +165,20 @@ export default {
               }
             }
           }
+
+          #career-li {
+            .career{
+              color: $textHighlight !important;
+
+            }
+            &:hover {
+              color: $textHighlight !important;
+            }
+          }
+
+
         }
+
       }
     }
 
@@ -194,8 +187,8 @@ export default {
 
 
 @media (max-width: 767px) {
-  #desktopNav{
-display: none !important;
+  #desktopNav {
+    display: none !important;
   }
 }
 

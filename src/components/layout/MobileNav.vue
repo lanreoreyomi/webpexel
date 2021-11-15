@@ -29,7 +29,6 @@
           </li>
           <li v-on:click="toggleMenu =!toggleMenu">
             <router-link :to="{name: 'Portfolio'}" class="router-link  career" v-scroll-to="'#home-c'">Portfolio
-              <img src="https://img.icons8.com/color/28/000000/arrow--v2.png" alt="arrow-right"/>
             </router-link>
           </li>
 
@@ -105,6 +104,7 @@ export default {
     background: $headerColor;
     //height: 10vh;
     font-family: 'Poppins', sans-serif;
+
     .db {
       background: #F1F2F6 !important;
 
@@ -117,14 +117,17 @@ export default {
       }
 
     }
+
     .menu {
       width: 100%;
       display: flex;
       justify-content: space-between;
       padding: 12px;
+
       .contact {
         display: none;
       }
+
       .openNavbar {
         cursor: pointer;
         top: 0;
@@ -136,6 +139,7 @@ export default {
         padding: 0;
         margin-left: 20px;
         width: 100%;
+
         img {
           margin: 0;
           padding: 0;
@@ -235,7 +239,8 @@ export default {
   .expandMenu {
     width: 70% !important;
   }
-  }
+}
+
 @media (max-width: 823px) {
   .desktopNav {
     display: block !important;
@@ -246,6 +251,7 @@ export default {
     background: $headerColor;
     //height: 10vh;
     font-family: 'Poppins', sans-serif;
+
     .db {
       background: #F1F2F6 !important;
 
@@ -258,14 +264,17 @@ export default {
       }
 
     }
+
     .menu {
       width: 100%;
       display: flex;
       justify-content: space-between;
       padding: 12px;
+
       .contact {
         display: none;
       }
+
       .openNavbar {
         cursor: pointer;
         top: 0;
@@ -277,6 +286,7 @@ export default {
         padding: 0;
         margin-left: 20px;
         width: 100%;
+
         img {
           margin: 0;
           padding: 0;
@@ -288,6 +298,7 @@ export default {
         width: 10%;
         text-align: end;
         padding: 0;
+        cursor: pointer;
       }
     }
 
@@ -313,9 +324,22 @@ export default {
         ul {
           animation-name: slide-anim;
           animation-duration: 4s;
-
+          text-align: center !important;
           li {
             list-style: none;
+            justify-content: center;
+            text-align: center !important;
+            text-transform: uppercase;
+            color: $alt-bg;
+            background: #0a1157;
+            font-family: 'Poppins', sans-serif;
+            width: 80%;
+            letter-spacing: 2px;
+
+            border: none;
+            cursor: pointer;
+            border-radius: 2rem;
+            margin: 20px auto;
 
             a {
               cursor: pointer;
@@ -325,13 +349,13 @@ export default {
               display: block;
               transition: 0.3s;
               color: white;
-
+              text-align: center !important;
             }
 
             .router-link-active {
               border-radius: 6px;
               color: $textHighlight;
-              border-bottom: none !important;
+
               padding: 8px;
 
               &:hover {
@@ -340,30 +364,12 @@ export default {
             }
 
             .career {
-              background: $textHighlight !important;
-              border-radius: 6px;
-              padding: 6px;
-              color: $headerColor !important;
-              border: 2px solid $textHighlight !important;
-              width: 40%;
-              margin: 0 auto;
-
-              img {
-                display: none;
-                width: 16px;
-
-                text-align: center;
-                justify-content: center;
-                align-items: center;
-              }
-
-              &:hover {
-                img {
-                  display: inline;
-
-                }
-              }
+              background: none !important;
+              border: none !important;
+              color: white !important;
+              text-align: center;
             }
+
           }
         }
       }

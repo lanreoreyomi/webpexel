@@ -23,27 +23,26 @@
       <div class="introRightText">
         <h1>ABOUT ME</h1>
         <div class="about-me">
-          <div class="about-info" style="border-top:2px solid black;">
-            <h2><span class="Highlight">Nokia-</span> Software Developer</h2>
-            <h3 class="date">Present</h3>
-            <br>
-            <h4>Working with dockerized applications. </h4>
-            <h4>Using and developing API's according to specifications</h4>
-            <h4>Cryptography</h4>
-            <h4>Docker, Kubernetes, Git, CI/CD</h4>
-            <h4>Ensuring code base is bug free, </h4>
-          </div>
+          <!--          <div class="about-info" style="border-top:2px solid black;">-->
+          <!--            <h2><span class="Highlight">Nokia-</span> Software Developer</h2>-->
+          <!--            <h3 class="date">Present</h3>-->
+          <!--            <br>-->
+          <!--            <h4>Working with dockerized applications. </h4>-->
+          <!--            <h4>Using and developing API's according to specifications</h4>-->
+          <!--            <h4>Cryptography</h4>-->
+          <!--            <h4>Docker, Kubernetes, Git, CI/CD</h4>-->
+          <!--            <h4>Ensuring code base is bug free, </h4>-->
+          <!--          </div>-->
           <div class="about-info" style="border-top:2px solid black;">
             <h2><span class="Highlight">Web Developer-</span> Freelance</h2>
             <h3 class="date">2017- Present</h3>
             <br>
             <h4>Website Development and maintenance </h4>
-             <h4>Domain registration and Website hosting </h4>
+            <h4>Domain registration and Website hosting </h4>
             <h4>Developing SPA, building rest API's</h4>
             <h4>Seo, Google Analytics and Google business</h4>
             <h4>Using Web servers to serve and debug web application</h4>
           </div>
-
           <div class="about-info" style="border-top:2px solid black;">
             <h2><span class="Highlight">Programmer-</span> Govt of Canada</h2>
             <h3 class="date">2020- 2021</h3>
@@ -128,6 +127,11 @@ export default {
           text: "Java"
         },
         {
+          name: "Spring Boot",
+          image: "https://img.icons8.com/color/50/000000/spring-logo.png",
+          text: "Spring Boot"
+        },
+        {
           name: "Javascript",
           image: "https://img.icons8.com/color/58/000000/javascript.png",
           text: "Javascript"
@@ -153,10 +157,6 @@ export default {
           text: "Vue Js"
         },
         {
-          name: "PHP",
-          image: "https://img.icons8.com/officel/58/000000/php-logo.png",
-          text: "PHP"
-        }, {
           name: "Node JS",
           image: "https://img.icons8.com/color/48/000000/nodejs.png",
           text: "Node JS"
@@ -165,6 +165,10 @@ export default {
           name: "GitHub",
           image: "https://img.icons8.com/fluent/58/000000/github.png",
           text: "GitHub"
+        }, {
+          name: "Gitlab",
+          image: "https://img.icons8.com/color/48/000000/gitlab.png",
+          text: "Gitlab"
         },
         {
           name: "JIRA",
@@ -177,11 +181,7 @@ export default {
           text: "SQL"
         },
 
-        {
-          name: "Mongo DB",
-          image: " https://img.icons8.com/color/48/000000/mongodb.png",
-          text: "Mongo DB"
-        },
+
       ],
       envStack: [
         {
@@ -195,11 +195,6 @@ export default {
           text: "Android Studio"
         },
         {
-          name: "Mac Os",
-          image: "https://img.icons8.com/fluent/48/000000/mac-os.png",
-          text: "Mac Os"
-        },
-        {
           name: "Database",
           image: "https://img.icons8.com/fluent/48/000000/data-configuration.png",
           text: "Database"
@@ -210,20 +205,24 @@ export default {
           text: "Linux"
         },
         {
-          name: "Vm Ware",
-          image: "https://img.icons8.com/color/48/000000/old-vmware-logo.png",
-          text: "VM Ware"
+          name: "Docker",
+          image: "https://img.icons8.com/fluency/48/000000/docker.png",
+          text: "Docker"
+        },
+        {
+          name: "Kubernetes",
+          image: "https://img.icons8.com/color/48/000000/kubernetes.png",
+          text: "Kubernetes"
+        },
+        {
+          name: "Jenkins",
+          image: "https://img.icons8.com/color/48/000000/jenkins.png",
+          text: "Jenkins"
         }, {
           name: "VSCode",
           image: "https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png",
           text: "VSCode"
         },
-        {
-          name: "Windows",
-          image: "https://img.icons8.com/color/48/000000/windows-10.png",
-          text: "Windows"
-        },
-
       ]
     }
   },
@@ -243,7 +242,8 @@ export default {
 .VueCarousel-inner {
   text-align: center;
   margin: 0 auto;
-font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
   img {
     cursor: pointer;
     border-radius: 4px;
@@ -296,6 +296,12 @@ font-family: 'Poppins', sans-serif;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
 
+        img {
+          padding: 0;
+          margin: 0;
+          cursor: pointer;
+        }
+
         .tech {
           text-align: center;
           margin: 0;
@@ -329,6 +335,11 @@ font-family: 'Poppins', sans-serif;
           text-align: center;
           margin: 0;
           width: 90%;
+          img {
+            padding: 0;
+            margin: 0;
+            cursor: pointer;
+          }
 
           p {
             color: $backgroundColor;
@@ -398,6 +409,7 @@ font-family: 'Poppins', sans-serif;
       display: grid;
       grid-template-columns:  1fr 1fr;
       font-weight: unset !important;
+
       .about-info {
         padding: 10px;
         width: 90%;

@@ -65,10 +65,10 @@ export default {
 @import "src/assets/Styles/colors";
 @import "src/assets/Styles/Buttons";
 #career{
- background: #F1F2F6;;
+ background: #F1F2F6;
 }
 .landing-section {
-  margin-top: 5vh;
+  //margin-top: 5vh;
 }
 
 
