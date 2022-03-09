@@ -57,95 +57,98 @@ export default {
       skillSet: [
 
         {
-          name: "Programming / Web",
-          skillText: "I use Java, PHP, VUE JS, Javascript, HTML, CSS, SCSS, Boostrap, Node js to develop and maintain Web applications, RESTFUL API,  and SPA according to WCAG and WET standards. I have used Servlet, JPA, CDI, Hibernate, MVC design pattern, Java EE annotations, and CDI, Jest, JUnit to develop, debug, and deploy web applications." +
-              "<br>" +
-
-
-              "I am skillful in creating" +
-              " responsive websites and SPAs with modern technologies and frameworks " +
-              "I use web asset bundlers like Webpack and package managers like " +
-              " NPM and YARN to manage and maintain project dependencies"
+          name: "Java & Spring Framework",
+          skillText:  "I am skilled in using core Java, and its related ecosystem to develop and maintain Web applications, I have hands-on experience using object-oriented principles to create and manage Java objects. \n" +
+              "<br>I am also proficient in using MVC, N-Tier JDBC, JSP, Servlet, Connection Manager, Prepared Statements, and ORM technologies like Hibernate and Mybatis to persist user data into the database \n" +
+              "<br> I have developed web applications using Spring Boot . I am skilled using SPring Framework, Spring Data JPA, Spring Web, Spring Security to develop secured web applications " +
+              "I am confident in using J Unit, Selenium, Mockito to write both unit and integration tests. "
         },
         {
-          name: "Business Reporting",
-          skillText: "I use IBM Cognos Analytics Reporting Studio and Framework Manager to create reports,  dashboards, visualization, and exploration widgets. I also use various visualization widgets such as Area, Crosstab, Radial, Maps, etc. to analyze data which helps clients in making better business decisions.  " +
-              "<br>" +
-
-              "I use different stages in IBM Datastage Application to perform ETL on datasets.  " +
-              "I write SQL queries, perform low-level SQL operations against the database. " +
-              "<br>" +
-
-              "I communicate with clients, data providers, and the database team to discuss the development and final delivery of projects. I develop packages and reports, following business requirements."
+          name: "Javascript/Vue Js",
+          skillText: "I am skillful using Javascript, HTML, CSS, Sass, Bootstrap to create responsive websites and SPAs. <br> I have developed a couple of web applications, using  Axios and Async await,  fetching and parsing data from external and internal APIs.\n" +
+              " <br>I leverage the power of Vue Js to develop scalable Web applications. I have used using some Vue Js features like Components, data binding, Props, Event handlings, Slot, Vue Router, Mixins and Vue Ex to manage and control the flow within a Vue .js app. I use web asset bundlers like Webpack and package managers like NPM and YARN to manage and maintain project dependencies."
         },
+
         {
           name: "Database",
-          skillText: " I have solid years of experience using several database engines, both SQL and NoSQL databases." +
-              "I am very comfortable creating DDL, ERD, store procedures, indexes, and connecting " +
-              "front-end applications to the database." +
-              " I also perform database backup and recovery, database following business requirements and practice."
+          skillText: "I have solid years of experience using several database engines, both SQL and NoSQL databases. <br> I am very comfortable creating DDL, ERD, store procedures, indexes, and connecting front-end applications to the database.\n" +
+              "<br> I have hands-on experience using both embedded and external databases to persist user data. I have worked with databases like Postgres, MySql, Oracle, PHPmyAdmin"
         },
 
         {
-          name: "Mobile Application Development",
-          skillText: "I have developed a couple of android applications using Java, Android Studio IDE, several other technologies and libraries like Volley for making API calls, " +
-              "Material Design theme for better UI experience, and Picasso for Media management. " +
-              "<br>" +
-              "These applications connect to a database. User data is persisted into the database. Users can create Account, Sign in, and Sign out functionality.",
+          name: "CI/CD",
+          skillText: "I have hands-on experience in CI/CD, using tools like Docker, Gitlab, and Jenkins to set up and manage the CI pipeline.\n" +
+              "<br>I am experienced using Minikube to manage Kubernetes Clusters, kubectl to perform operations on a K8 cluster I am also experienced using pods, deployments, services and manager communications between different microservices in a cluster",
         },
         {
-          name: "Google Analytics",
-          skillText: "Over the years working as a Web developer, I have gained a solid knowledge of using Google " +
-              "Analytics to analyze website data and boost online performance." +
-              "<br>" +
-              " I am knowledgeable using Google Analytics tool to track website visits, pages users visited, the devices they used to access the website, how long they stayed on each page, their location, how they interact, and overall performance. Website data are analyzed to provide more engaging content to the user"
+          name: "Agile/Jira",
+          skillText: " I have a good understanding of Agile and its practices. I am also involved in daily standups, Sprint and PI planning.\n" +
+              "<br> In addition to Agile, I have also developed a good habit of writing documentation both in my code (Java doc) or on Confluence to preserve and transfer knowledge within the team",
+
         },
         {
-          name: "SEO Management",
-          skillText: "Search Engine Optimization is key when it comes to website development. " +
-              "I use a couple of different tools and logic to increase website traffic through SEO. Some of which include using" +
-              " relevant keywords for search indexing, image geo-tagging." +
-              "I use Google Console to crawl and index all pages on a website. This process provides more information about the website to " +
-              "google." +
-              "<br> " +
-              "I also set up Google my business for clients' to ensure smooth business delivery and better communication."
+          name: "Wordpress",
+          skillText: "I have developed a couple of websites using WordPress. I created an eCommerce website using woo-commerce." +
+              "I also have experience using plug-ins to add functionalities to a WordPress website\n" +
+              " Additionally, I have used Plug-ins like Elementor and Brizy to power the front end. I am skilled in persisting data from user forms into the PhpmyAdmin database"
 
         },
       ],
       skillDec: [
         {
-          skillName: "Database",
-          tittle: "SQL",
-          description: "" +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Database</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Nateeza</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Msqlwork</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Oracle</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>PostgreSQL</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>MongoDB</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>ERD</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>GraphQL</span> ",
-          image: require("../assets/Image/idrisapp.png"),
-          github: "https://github.com/lanreoreyomi/SQLite-Database"
+          skillName: "Programming",
+          tittle: "Java",
+
+          description:
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Spring Framework</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Apache Tomcat</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Payara</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Hibernate</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>myBatis</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Java 8</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Servlet</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>RESTApi</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Selenuim</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Microservices</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>J Unit</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Mockito</span> ",
+          image: require("../assets/Image/swfsolutions.png"),
+          github: "https://github.com/lanreoreyomi/cloudstorage",
 
         },
         {
-          skillName: "Programming Web",
-          tittle: "PHP ",
-          description: "" +
+          skillName: "Spring Boot",
+          tittle: "Spring Boot",
+          description:
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Spring MVC</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Spring Data JPA</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Java</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Spring Web</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Spring Security</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Spring JPARepository</span> ",
+          image: require("../assets/Image/triviaapp.png"),
+          github: "https://github.com/lanreoreyomi/eCommerceApp"
+
+        },
+        {
+          skillName: "Programming",
+          tittle: "Javascript",
+          description:
               "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Web</span> " +
               "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Programming</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>PHP</span> " +
               "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Javascript</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>PHPMyAdmin</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>PostgreSQL</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Spring Boot</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Spring Framework</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Node Js</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Java</span> ",
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>ES5</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>ES6</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>WCAG</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Front End</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>NPM</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Yarn</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Babel</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Webpack</span> ",
+          image: require("../assets/Image/Jaavascriptgame.png"),
+          github: "https://github.com/lanreoreyomi/Budgety",
+          link: "https://mybudgetyapp.netlify.app/",
 
-          image: require("../assets/Image/nikkihairstudio.png"),
-          github: "https://github.com/lanreoreyomi/Resturant",
         },
         {
           skillName: "Programming",
@@ -180,19 +183,40 @@ export default {
 
         },
         {
-          skillName: "Business Reporting",
-          tittle: "Business Reporting",
-          description:
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Business Intelligence</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Business Reporting</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Data Warehouse</span> " +
+          skillName: "Database",
+          tittle: "SQL",
+          description: "" +
               "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Database</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Star Schema</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Cognos</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Data Analysis</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Business Analysis</span> ",
-          image: require("../assets/Image/triviaapp.png"),
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Nateeza</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Msqlwork</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Oracle</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>PostgreSQL</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>MongoDB</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>ERD</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>GraphQL</span> ",
+          image: require("../assets/Image/idrisapp.png"),
+          github: "https://github.com/lanreoreyomi/SQLite-Database"
+
         },
+        {
+          skillName: "Programming Web",
+          tittle: "PHP ",
+          description: "" +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Web</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Programming</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>PHP</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Javascript</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>PHPMyAdmin</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>PostgreSQL</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Spring Boot</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Spring Framework</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Node Js</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Java</span> ",
+
+          image: require("../assets/Image/nikkihairstudio.png"),
+          github: "https://github.com/lanreoreyomi/Resturant",
+        },
+
         {
           skillName: "Android Dev",
           tittle: "Android",
@@ -209,59 +233,18 @@ export default {
           github: "https://github.com/lanreoreyomi/TripVault",
 
         },
-        {
-          skillName: "Programming",
-          tittle: "Javascript",
-          description:
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Web</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Programming</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Javascript</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>ES5</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>ES6</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>WCAG</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Front End</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>NPM</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Yarn</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Babel</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Webpack</span> ",
-          image: require("../assets/Image/Jaavascriptgame.png"),
-          github: "https://github.com/lanreoreyomi/Budgety",
-          link: "https://mybudgetyapp.netlify.app/"
 
-        },
-        {
-          skillName: "Programming",
-          tittle: "Java",
 
-          description:
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Spring Framework</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Apache Tomcat</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Payara</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Hibernate</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>myBatis</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Java 8</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Servlet</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>RESTApi</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Selenuim</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Microservices</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>J Unit</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Mockito</span> ",
-          image: require("../assets/Image/swfsolutions.png"),
-          github: "https://github.com/lanreoreyomi/cloudstorage",
-
-        },
         {
-          skillName: "Build Tools",
-          tittle: "Version Control/ Build Tools",
+          skillName: "Dev Ops",
+          tittle: "Dev Ops",
           description:
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Eclipse IDE</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Intellij IDE</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Git</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>CI/CD</span> " +
+               "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>GitLab</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Jenkins</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Docker</span> " +
               "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Kubernetes</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Splunk</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Servlet</span> " +
-              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>DevOps</span> " ,
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Kubectl</span> " +
+              "<span style='border-radius: 6px; padding:5px; background-color:#dcdde1;'>Minikube</span> " ,
            image: require("../assets/Image/planetsoccer.png"),
 
         }

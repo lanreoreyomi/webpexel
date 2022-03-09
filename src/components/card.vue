@@ -9,8 +9,16 @@
         <h2>Website Development</h2>
         <h3>Modern fast, user-friendly and responsive website from scratch. Developed using
           modern web development technologies and frameworks.</h3>
-        <br>
-        <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
+
+        <div class="findout">
+          <p>
+            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
+          </p>
+          <p class="p_img">
+            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+
+          </p>
+        </div>
       </div>
     </div>
     <div class="services_con">
@@ -22,8 +30,15 @@
         <h3>Do you want a partial or full website redesign?
           Do you have an idea, content, design or feature you want to
           push to your website? We are here for you.</h3>
-        <br>
-        <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
+        <div class="findout">
+          <p>
+            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
+          </p>
+          <p class="p_img">
+            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+
+          </p>
+        </div>
       </div>
     </div>
     <div class="services_con">
@@ -34,8 +49,35 @@
         <h2>Domain Registration</h2>
         <h3>Domain Registration and hosting plan with industry leading hosting services.
           We will get your domain, SSL, private email, DNS and everything your websites needs to be alive.</h3>
-        <br>
-        <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
+        <div class="findout">
+          <p>
+            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
+          </p>
+          <p class="p_img">
+            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="services_con">
+      <div class="services_img">
+        <img src="../assets/Image/expenses.png" alt="java">
+      </div>
+      <div class="services_desc">
+        <h2>Cross Platform App Development</h2>
+        <h3>Setting up your Business on Google Business is very important. This gives customer more instant and most
+          important information about the your business.
+        </h3>
+        <div class="findout">
+          <p>
+            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
+          </p>
+          <p class="p_img">
+            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+
+          </p>
+        </div>
       </div>
     </div>
     <div class="services_con">
@@ -47,8 +89,15 @@
         <h3>
           We use best industry standards and practises to get your website highly ranked and increase in traffic.
           We promote your website to reach more customers.</h3>
-        <br>
-        <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
+        <div class="findout">
+          <p>
+            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
+          </p>
+          <p class="p_img">
+            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+
+          </p>
+        </div>
       </div>
     </div>
     <div class="services_con">
@@ -56,27 +105,22 @@
         <img src="../assets/Image/insights.png" alt="java">
       </div>
       <div class="services_desc">
-        <h2>Google Analytics</h2>
+        <h2>Google Analytics/Business</h2>
         <h3>We will analyze your website traffic. This data are transformed to a business model which
           will help you make smarter business decision,
           knowing what content to show on what section of your website.</h3>
-        <br>
-        <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
+        <div class="findout">
+          <p>
+            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
+          </p>
+          <p class="p_img">
+            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+
+          </p>
+        </div>
       </div>
     </div>
-    <div class="services_con">
-      <div class="services_img">
-        <img src="../assets/Image/expenses.png" alt="java">
-      </div>
-      <div class="services_desc">
-        <h2>Google Business</h2>
-        <h3>Setting up your Business on Google Business is very important. This gives customer more instant and most
-          important information about the your business.
-        </h3>
-        <br>
-        <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
-      </div>
-    </div>
+
   </div>
 </template>
 
@@ -92,64 +136,92 @@ export default {
 
 .our-services {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2px;
   width: 80%;
-  margin: 0 auto 20vh;
+  margin: 0 auto 10vh;
 
   .services_con {
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
-    width: 80%;
+    width: 90%;
+    cursor: pointer;
+    -webkit-box-shadow: 0px -1px 12px 7px rgba(255, 255, 255, 1.0);
+    box-shadow: 0px -1px 12px 7px rgba(223, 228, 234, 1.0);
     //background:#f1f2f6;
     .services_img {
       text-align: center;
+
       img {
-        width: 350px;
+        width: 250px;
         max-width: 100%;
       }
     }
+
     .services_desc {
       font-family: 'poppins', cursive;
-
-      h2 {
-        color: #2f3542;
-        font-family: 'Coda', cursive;
-        font-size: 30px;
-        padding: 10px;
-      }
-
-      h3 {
-       font-weight: unset;
-        line-height: 30px;
-        font-size: 14px;
-        opacity: 0.9;
-        padding: 10px;
-      }
       padding: 20px;
       text-align: start;
       margin: 10px auto;
       color: #747d8c;
-      a {
-        text-decoration: none;
-        background: black;
-        color: $alt-bg;
+
+      h2 {
+        color: black;
+        font-family: 'Coda', cursive;
+        font-size: 20px;
+        padding: 10px;
+      }
+
+      h3 {
+        font-weight: unset;
+        line-height: 30px;
+        font-size: 14px;
+        opacity: 0.9;
         padding: 15px;
-        border-radius: 2rem;
-        //margin: 20px;
+      }
+
+      .findout {
+        float: right;
+        display: flex;
+        padding: 10px;
+
+        p {
+          a {
+            text-decoration: underline;
+            color: black;
+            padding: 8px;
+          }
+        }
+
+        .p_img {
+          img{
+            padding-top:2px;
+            height:32px;
+            width: 0px;
+            transition: width 1s;
+            transition-timing-function: ease;
+          }
+
+        }
         &:hover {
-          background: white;
-          color: black;
-          border: 2px solid black;
+          .p_img {
+            img{
+              width: 30px;
+
+            }
+
+
+
+          }
         }
       }
+
     }
-    &:hover {
-      -webkit-box-shadow: 0px -1px 12px 7px rgba(255, 255, 255, 1.0);
-      box-shadow: 0px -1px 12px 7px rgba(223, 228, 234, 1.0);
-    }
+
+
   }
 }
+
 @media (max-width: 768px) {
   .our-services {
     width: 100%;
@@ -163,10 +235,12 @@ export default {
 
   }
 }
+
 @media only screen and (min-device-width: 772px) and (max-device-width: 1024px) {
   .our-services {
     width: 95%;
-    grid-template-columns: 1fr  ;
+    grid-template-columns: 1fr;
+
     .services_con {
       padding: 10px;
       width: 100%;
@@ -174,10 +248,11 @@ export default {
 
   }
 }
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and(-webkit-min-device-pixel-ratio: 2) {
   .our-services {
     width: 100%;
-padding: 60px  !important;
+    padding: 60px !important;
     grid-template-columns: 1fr  1fr;
 
     .services_con {

@@ -42,8 +42,10 @@ export default {
 }
 </script>
 
-<style>
-* {
+<style lang="scss">
+@import "src/assets/Styles/colors";
+
+*, body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;

@@ -27,10 +27,10 @@
           <li @click="toggleMenu=!toggleMenu">
             <a class="button1" v-scroll-to="'#skillSet'">Projects </a>
           </li>
-          <li v-on:click="toggleMenu =!toggleMenu">
-            <router-link :to="{name: 'Portfolio'}" class="router-link  career" v-scroll-to="'#home-c'">Portfolio
-            </router-link>
-          </li>
+<!--          <li v-on:click="toggleMenu =!toggleMenu">-->
+<!--            <router-link :to="{name: 'Portfolio'}" class="router-link  career" v-scroll-to="'#home-c'">Portfolio-->
+<!--            </router-link>-->
+<!--          </li>-->
 
         </ul>
         <div>

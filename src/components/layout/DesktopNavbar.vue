@@ -17,10 +17,10 @@
           <li @click="toggleMenu=!toggleMenu">
             <a class="button1" v-scroll-to="'#skillSet'">Projects </a>
           </li>
-          <li id="career-li">
-            <router-link :to="{name: 'Portfolio'}" class="router-link  career" v-scroll-to="'#home-c'">Portfolio
-            </router-link>
-          </li>
+          <!--          <li id="career-li">-->
+          <!--            <router-link :to="{name: 'Portfolio'}" class="router-link  career" v-scroll-to="'#home-c'">Portfolio-->
+          <!--            </router-link>-->
+          <!--          </li>-->
 
         </ul>
       </div>
@@ -79,7 +79,7 @@ export default {
   z-index: 9999 !important;
 
   .db {
-    background: white  !important;
+    background: white !important;
 
     ul {
       li {
@@ -98,7 +98,6 @@ export default {
 
   .navbar {
     display: flex;
-
     position: fixed;
     justify-content: center;
     top: 0;
@@ -125,8 +124,10 @@ export default {
 
 
       ul {
+        width: 80%;
         margin: 0 auto;
-        text-align: end;
+        display: flex;
+        justify-content: space-around;
 
         li {
           display: inline-block;
@@ -135,7 +136,7 @@ export default {
           width: 150px;
 
           a {
-            color: #7f8fa6;
+            color: white;
             font-family: 'Poppins', sans-serif;
             text-align: center;
             cursor: pointer;
@@ -144,8 +145,7 @@ export default {
             &:hover {
               text-decoration: none;
               text-underline: none;
-              color: white;
-
+              color: #7f8fa6;
             }
 
           }
@@ -167,10 +167,11 @@ export default {
           }
 
           #career-li {
-            .career{
+            .career {
               color: $textHighlight !important;
 
             }
+
             &:hover {
               color: $textHighlight !important;
             }
@@ -185,8 +186,50 @@ export default {
   }
 }
 
+@media screen and (min-width: 820px) and (max-width: 1110px) {
+  #desktopNav {
+    .navbar {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
 
-@media (max-width: 767px) {
+      #nav-logo {
+        width: 10%;
+        padding: 20px;
+        grid-column-start: 1;
+      }
+
+      #nav-items {
+        margin: 0 auto;
+        width: 85%;
+        padding: 12px;
+        padding-top: 0px !important;
+
+
+        ul {
+          grid-column-start: 2;
+          text-align: end;
+          justify-content: end;
+          display: flex;
+
+          li {
+            display: inline-block;
+            list-style: none;
+            justify-content: end;
+
+            @include Button();
+            width: 120px;
+
+
+          }
+
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 823px) {
   #desktopNav {
     display: none !important;
   }

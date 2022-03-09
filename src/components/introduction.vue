@@ -3,7 +3,7 @@
     <div class="contain" data-aos="zoom-in" data-aos-duration="1000">
       <div class="introLeftText">
 
-        <h1>STACK OF TECHNOLOGIES</h1>
+        <h1>TOOLS </h1>
         <br>
         <div class="techStack">
           <div class="tech" v-for="skillSet in techStacks" :key="skillSet[0]">
@@ -21,22 +21,12 @@
       </div>
 
       <div class="introRightText">
-        <h1>ABOUT ME</h1>
+        <h1>Work Experience</h1>
         <div class="about-me">
-          <!--          <div class="about-info" style="border-top:2px solid black;">-->
-          <!--            <h2><span class="Highlight">Nokia-</span> Software Developer</h2>-->
-          <!--            <h3 class="date">Present</h3>-->
-          <!--            <br>-->
-          <!--            <h4>Working with dockerized applications. </h4>-->
-          <!--            <h4>Using and developing API's according to specifications</h4>-->
-          <!--            <h4>Cryptography</h4>-->
-          <!--            <h4>Docker, Kubernetes, Git, CI/CD</h4>-->
-          <!--            <h4>Ensuring code base is bug free, </h4>-->
-          <!--          </div>-->
           <div class="about-info" style="border-top:2px solid black;">
-            <h2><span class="Highlight">Web Developer-</span> Freelance</h2>
+            <h2><span class="Highlight">Web Developer-</span> WebPexels</h2>
             <h3 class="date">2017- Present</h3>
-            <br>
+
             <h4>Website Development and maintenance </h4>
             <h4>Domain registration and Website hosting </h4>
             <h4>Developing SPA, building rest API's</h4>
@@ -44,9 +34,19 @@
             <h4>Using Web servers to serve and debug web application</h4>
           </div>
           <div class="about-info" style="border-top:2px solid black;">
+            <h2><span class="Highlight">Nokia-</span> Software Developer</h2>
+            <h3 class="date">Present</h3>
+
+            <h4>Working with dockerized applications. </h4>
+            <h4>Adding new features to project</h4>
+            <h4>Writing unit and integration test</h4>
+            <h4>Docker, Kubernetes, Git, CI/CD</h4>
+            <h4>Ensuring code base is bug free </h4>
+          </div>
+          <div class="about-info" style="border-top:2px solid black;">
             <h2><span class="Highlight">Programmer-</span> Govt of Canada</h2>
             <h3 class="date">2020- 2021</h3>
-            <br>
+
             <h4>Working with Data warehouses.</h4>
             <h4>Business Reporting and Analysis</h4>
             <h4>SQL, Data Models and Troubleshooting</h4>
@@ -57,15 +57,14 @@
           </div>
 
           <div class="about-info" style="border-top:2px solid black;">
-            <h2><span class="Highlight">Database Administrator-</span> BANK</h2>
+            <h2><span class="Highlight">Database Admin-</span> TD BANK</h2>
             <h3 class="date">2019</h3>
-            <br>
+
             <h4>Updating records in the system</h4>
             <h4>Adding new records to the system</h4>
             <h4>Ensuring data integrity</h4>
             <h4>Working with deadlines</h4>
           </div>
-
 
         </div>
 
@@ -190,11 +189,6 @@ export default {
           text: "Inteli J"
         },
         {
-          name: "Android Studio",
-          image: "https://img.icons8.com/fluent/48/000000/android-os.png",
-          text: "Android Studio"
-        },
-        {
           name: "Database",
           image: "https://img.icons8.com/fluent/48/000000/data-configuration.png",
           text: "Database"
@@ -278,8 +272,8 @@ export default {
   transform: scale(1);
 
   .contain {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    //display: grid;
+    //grid-template-columns: 1fr 1fr 1fr;
 
     .introLeftText {
 
@@ -294,7 +288,7 @@ export default {
 
       .techStack {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
         img {
           padding: 0;
@@ -327,9 +321,9 @@ export default {
       }
 
       .environment {
-        margin-top: 50px;
+        margin-top: 10px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
         .ideIUse {
           text-align: center;
@@ -369,9 +363,12 @@ export default {
       font-family: $textFont;
       //background: #ebebef;
       h1 {
-        text-align: start;
-        margin-bottom: 2vh;
-
+        text-align: center;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 20px;
       }
 
       //clip-path: polygon(89% 0, 100% 40%, 52% 350%, 0 100%, 0 0);
@@ -408,14 +405,14 @@ export default {
 
       display: grid;
       grid-template-columns:  1fr 1fr;
-      font-weight: unset !important;
+      //font-weight: unset !important;
 
       .about-info {
         padding: 10px;
-        width: 90%;
+        width: 80%;
         grid-template-columns: 1fr 1fr;
-
-
+        margin: 0 auto;
+        text-align: left;
         h2 {
           font-size: 28px;
           text-align: start;
@@ -430,6 +427,9 @@ export default {
           font-size: 16px;
           color: #0a3d62;
           border-left: none;
+          margin-bottom: 2vh;
+          text-align: left;
+          font-weight:bold;
         }
 
         h3 {
@@ -440,10 +440,9 @@ export default {
         h4 {
           font-size: 16px;
           margin: 0;
-          border-left: 10px solid $textHighlight;
-          padding-left: 10px;
           line-height: 30px;
           font-weight: unset !important;
+          text-align: left;
         }
 
       }
@@ -564,8 +563,15 @@ export default {
                             "b b b"
                             "c c c";
 
-      .introRightText {
+      .introLeftText {
+        .techStack, .environment{
+          grid-template-columns: 1fr 1fr 1fr !important;
+        }
 
+
+      }
+
+      .introRightText {
         grid-area: a;
 
         .buttons {

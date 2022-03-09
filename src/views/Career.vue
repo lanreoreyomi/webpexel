@@ -13,8 +13,11 @@
     <div class="contact">
       <Contact/>
     </div>
+    <div class="card" >
+      <Card v-if="isVisible"/>
+    </div>
     <div class="footer">
-      <Footer/>
+      <Footer />
     </div>
 
   </div>
@@ -28,16 +31,24 @@ import introduction from '@/components/introduction.vue'
 import Skills from '@/components/Skills.vue'
 import Contact from '@/components/Contact.vue'
 import Footer from '@/components/layout/Footer.vue'
+import Card from '@/components/card'
 
 
 export default {
   name: 'Home',
+  data (){
+    return{
+      isVisible: false,
+
+    }
+  },
   components: {
     LandingSection,
     introduction,
     Skills,
     Contact,
-    Footer
+    Footer,
+    Card,
   },
   metaInfo() {
     return {
