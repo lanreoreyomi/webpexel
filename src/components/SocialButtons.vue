@@ -3,8 +3,7 @@
 
     <Button><a href="https://www.linkedin.com/in/lanre-oreyomi-1012/" target="_blank"><img
         src="../assets/Image/linkedin-round-color.svg" alt="linkedin"/></a></Button>
-    <Button><a href="https://twitter.com/lanreycole" target="_blank"><img src="../assets/Image/twitter-round-color.svg"
-                                                                          alt="twitter"/></a></Button>
+
     <Button><a href="https://github.com/lanreoreyomi" target="_blank"> <img src="../assets/Image/github.svg" alt="github"/></a>
     </Button>
 
@@ -23,6 +22,7 @@ export default {
 
 
 .socialMedia {
+text-align: center;
   Button {
     padding: 0;
     margin: 20px;

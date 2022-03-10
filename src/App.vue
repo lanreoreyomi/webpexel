@@ -45,11 +45,13 @@ export default {
 <style lang="scss">
 @import "src/assets/Styles/colors";
 
-*, body {
-  padding: 0;
+.html, body {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-
+  height: 100%;
+  line-height: 35px;
+  background:$backgroundColor !important;
 }
 
 </style>

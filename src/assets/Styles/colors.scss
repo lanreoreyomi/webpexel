@@ -6,22 +6,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-$textColor: #18071B;
+$textColor:white;
 $headerColor:  #1a0f7c;
-$backgroundColor: #FAFBFE;
+$backgroundColor: $headerColor;
 $textHighlight: #ED542C;
 $headerFont: 'Open Sans', sans-serif;
 $textFont: 'Quicksand', sans-serif;
 $textDecor:'Alegreya Sans', sans-serif;
 $headerFont2:  'Poppins', sans-serif;
-$alt-bg: #dddbea;
+$alt-bg: #ffffff;
 $alt-bg2: #C1B398;
 
 
-.html, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  height: 100%;
-  line-height: 35px;
-}

@@ -1,124 +1,200 @@
 <template>
   <div class="our-services">
-
-    <div class="services_con">
+    <!--TODO: Turn card into a component-->
+    <div class="services_con" data-aos="fade-up"  data-aos-duration="4000">
       <div class="services_img">
-        <img src="../assets/Image/computer-and-man.png" alt="java">
+         <img src="../assets/Image/3d1.jpg" alt="java">
       </div>
       <div class="services_desc">
         <h2>Website Development</h2>
         <h3>Modern fast, user-friendly and responsive website from scratch. Developed using
           modern web development technologies and frameworks.</h3>
+        <div class="contact_us">
+          <div class="cardContact ccEmail">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Request Quote</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
 
-        <div class="findout">
-          <p>
-            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
-          </p>
-          <p class="p_img">
-            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+            </p>
+          </div>
+          <div class="cardContact ccCall">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Call Now</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
 
-          </p>
+            </p>
+          </div>
         </div>
+
       </div>
+
     </div>
-    <div class="services_con">
+    <div class="services_con" data-aos="fade-up"  data-aos-duration="4000">
       <div class="services_img">
-        <img src="../assets/Image/maintenance.png" alt="java">
+         <img src="../assets/Image/3d2.jpg" alt="java">
       </div>
       <div class="services_desc">
         <h2>Website Maintenance</h2>
-        <h3>Do you want a partial or full website redesign?
-          Do you have an idea, content, design or feature you want to
-          push to your website? We are here for you.</h3>
-        <div class="findout">
-          <p>
-            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
-          </p>
-          <p class="p_img">
-            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+                <h3>Do you want a partial or full website redesign?
+                  Do you have an idea, content, design or feature you want to
+                  push to your website? We are here for you.</h3>
+        <div class="contact_us">
+          <div class="cardContact ccEmail">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Request Quote</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
 
-          </p>
+            </p>
+          </div>
+          <div class="cardContact ccCall">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Call Now</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
+
+            </p>
+          </div>
         </div>
+
       </div>
-    </div>
-    <div class="services_con">
+
+    </div >
+    <div class="services_con" data-aos="fade-up">
       <div class="services_img">
-        <img src="../assets/Image/domain-registration.png" alt="java">
+         <img src="../assets/Image/3d3.jpg" alt="java">
       </div>
       <div class="services_desc">
-        <h2>Domain Registration</h2>
-        <h3>Domain Registration and hosting plan with industry leading hosting services.
-          We will get your domain, SSL, private email, DNS and everything your websites needs to be alive.</h3>
-        <div class="findout">
-          <p>
-            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
-          </p>
-          <p class="p_img">
-            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+                <h2>Cross Platform App Development</h2>
+                <h3>We create scalable and cross platform mobile apps, which runs smoothly both on Android and IOS, making you
+                  concentrate on business and customer retention.
+                </h3>
 
-          </p>
+        <div class="contact_us">
+          <div class="cardContact ccEmail">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Request Quote</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
+
+            </p>
+          </div>
+          <div class="cardContact ccCall">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Call Now</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
+
+            </p>
+          </div>
         </div>
+
       </div>
-    </div>
-    <div class="services_con">
+
+    </div >
+    <div class="services_con" data-aos="fade-up" data-aos-duration="4000">
       <div class="services_img">
-        <img src="../assets/Image/expenses.png" alt="java">
+         <img src="../assets/Image/3d4.jpg" alt="java">
       </div>
       <div class="services_desc">
-        <h2>Cross Platform App Development</h2>
-        <h3>Setting up your Business on Google Business is very important. This gives customer more instant and most
-          important information about the your business.
-        </h3>
-        <div class="findout">
-          <p>
-            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
-          </p>
-          <p class="p_img">
-            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+                <h2>SEO Optimization</h2>
+                <h3>
+                  We use best industry standards and practises to get your website highly ranked and increase in traffic.
+                  We promote your website to reach more customers.</h3>
 
-          </p>
+
+        <div class="contact_us">
+          <div class="cardContact ccEmail">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Request Quote</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
+
+            </p>
+          </div>
+          <div class="cardContact ccCall">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Call Now</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
+            </p>
+          </div>
         </div>
+
       </div>
-    </div>
-    <div class="services_con">
+
+    </div >
+    <div class="services_con" data-aos="fade-up" data-aos-duration="4000">
       <div class="services_img">
-        <img src="../assets/Image/seo-opt.png" alt="java">
+         <img src="../assets/Image/3d5.jpg" alt="java">
       </div>
       <div class="services_desc">
-        <h2>SEO Optimization</h2>
-        <h3>
-          We use best industry standards and practises to get your website highly ranked and increase in traffic.
-          We promote your website to reach more customers.</h3>
-        <div class="findout">
-          <p>
-            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
-          </p>
-          <p class="p_img">
-            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+                <h2>Google Analytics/Business</h2>
+                <h3>We will analyze your website traffic. This data are transformed to a business model which
+                  will help you make smarter business decision,
+                  knowing what content to show on what section of your website.</h3>
+        <div class="contact_us">
+          <div class="cardContact ccEmail">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Request Quote</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
 
-          </p>
+            </p>
+          </div>
+          <div class="cardContact ccCall">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Call Now</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
+            </p>
+          </div>
         </div>
+
       </div>
+
     </div>
-    <div class="services_con">
+    <div class="services_con" data-aos="fade-up" data-aos-duration="4000">
       <div class="services_img">
-        <img src="../assets/Image/insights.png" alt="java">
+         <img src="../assets/Image/3d6.jpg" alt="java">
       </div>
       <div class="services_desc">
-        <h2>Google Analytics/Business</h2>
-        <h3>We will analyze your website traffic. This data are transformed to a business model which
-          will help you make smarter business decision,
-          knowing what content to show on what section of your website.</h3>
-        <div class="findout">
-          <p>
-            <a href="" v-scroll-to="'#contactsContainer'">Find out more</a>
-          </p>
-          <p class="p_img">
-            <img src="https://img.icons8.com/ios-glyphs/000000/long-arrow-right.png"/>
+                <h2>Domain Registration</h2>
+                <h3>Domain Registration and hosting plan with industry leading hosting services. We will get your domain, SSL, private email, DNS and everything your websites needs to be alive.</h3>
+        <div class="contact_us">
+          <div class="cardContact ccEmail">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Request Quote</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
 
-          </p>
+            </p>
+          </div>
+          <div class="cardContact ccCall">
+            <p>
+              <a href="" v-scroll-to="'#contactsContainer'">Call Now</a>
+            </p>
+            <p class="p_img">
+              <img src="https://img.icons8.com/ios-glyphs/ffffff/long-arrow-right.png"/>
+            </p>
+          </div>
         </div>
+
       </div>
+
     </div>
 
   </div>
@@ -135,87 +211,134 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Coda:wght@800&family=Poller+One&family=Poppins:wght@800&display=swap');
 
 .our-services {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2px;
-  width: 80%;
+  //display: grid;
+  //grid-template-columns: 1fr 1fr 1fr;
+  //grid-gap: 2px;
+  width: 90%;
   margin: 0 auto 10vh;
+  padding: 50px;
+  background: #eeebeb;
 
   .services_con {
-    margin: 20px auto;
+    margin: 20px auto 10vh;
     text-align: center;
-    width: 90%;
+    width: 80%;
     cursor: pointer;
-    -webkit-box-shadow: 0px -1px 12px 7px rgba(255, 255, 255, 1.0);
-    box-shadow: 0px -1px 12px 7px rgba(223, 228, 234, 1.0);
-    //background:#f1f2f6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    min-height: 40vh;
+    padding: 20px;
+    border-radius: 2rem;
+
     .services_img {
       text-align: center;
-
+      -webkit-box-shadow: 0px -1px 12px 7px rgba(255, 255, 255, 1.0);
+      box-shadow: 0px -1px 12px 7px rgba(223, 228, 234, 1.0);
+      border-radius: 1rem;
       img {
-        width: 250px;
-        max-width: 100%;
+       max-width: 100%;
+        min-height: 100%;
+        background: $textColor;
+        border-radius: 1rem;
       }
     }
 
     .services_desc {
       font-family: 'poppins', cursive;
-      padding: 20px;
+      padding-left: 30px;
       text-align: start;
-      margin: 10px auto;
       color: #747d8c;
+      margin-top: 7vh;
 
       h2 {
         color: black;
         font-family: 'Coda', cursive;
-        font-size: 20px;
-        padding: 10px;
+        font-size: 50px;
+        line-height: 80px;
+        margin-top: 5vh;
       }
 
       h3 {
         font-weight: unset;
         line-height: 30px;
-        font-size: 14px;
         opacity: 0.9;
-        padding: 15px;
+        position: unset;
+        margin-top: 3vh;
+
       }
 
-      .findout {
-        float: right;
+    }
+
+    .contact_us {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 40px;
+      margin-top: 5vh;
+      border-radius: 2rem;
+
+      .cardContact {
+        border-radius: 2rem;
         display: flex;
-        padding: 10px;
+        text-align: center;
+        margin: 20px auto;
+        width: 200px;
+        border: 2px solid black;
+        justify-content: center;
 
         p {
+          padding-top: 10px;
+          font-family: 'poppins', cursive;
+
           a {
-            text-decoration: underline;
+            text-decoration: none;
             color: black;
-            padding: 8px;
           }
         }
 
         .p_img {
-          img{
-            padding-top:2px;
-            height:32px;
-            width: 0px;
+
+          img {
+            width: 0;
+            height: 32px;
             transition: width 1s;
             transition-timing-function: ease;
           }
-
         }
+
         &:hover {
           .p_img {
-            img{
+            img {
               width: 30px;
-
             }
+          }
 
+          p {
+            a {
+              color: white;
+            }
+          }
 
+          width: 200px;
+          cursor: pointer;
+          -webkit-box-shadow: 0px -1px 12px 7px rgba(255, 255, 255, 1.0);
+          box-shadow: 0px -1px 12px 7px rgba(223, 228, 234, 1.0);
+          background: black;
+          color: white;
+        }
 
+      }
+
+      .ccCall {
+        background: black;
+        -webkit-box-shadow: 0px -1px 12px 7px rgba(255, 255, 255, 1.0);
+        box-shadow: 0px -1px 12px 7px rgba(223, 228, 234, 1.0);
+        p {
+          a {
+            color: white;
           }
         }
       }
-
     }
 
 

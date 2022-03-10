@@ -44,31 +44,18 @@
         </div>
       </VueSlickCarousel>
     </div>
-    <div class="skills-b">
-      <img src="../assets/Image/vue-js.svg" alt="vue">
-      <img src="../assets/Image/javascript.svg" alt="javascript">
-      <img src="../assets/Image/html.svg" alt="html">
-      <img src="../assets/Image/css.svg" alt="css">
-      <img src="../assets/Image/sass.svg" alt="scss">
-      <img src="../assets/Image/bootstrap-4.svg" alt="boostrap">
-      <img src="../assets/Image/wordpress.svg" alt="wordpress">
-      <img src="../assets/Image/java.svg" alt="java">
-      <img src="../assets/Image/php.svg" alt="php">
-
-
-    </div>
 
     <div class="cards">
       <Card/>
     </div>
     <!-- Calendly inline widget begin -->
     <!-- Calendly inline widget end -->
-
+<!--TODO:Make projects a clickable modal-->
     <div class="projects-b" id="skillSet">
       <div class="proj" data-aos="zoom-in" data-aos-duration="500">
         <img src="../assets/Image/ddc.png" alt="thumbnail">
         <p data-aos="zoom-in-up" data-aos-duration="1000" style="background:#222f3e;">
-          <a href="https://www.diversifieddementiacare.com/#/" target="_blank">Link</a>
+          <a href="https://www.diversifieddementiacare.com/#/" target="_blank">View</a>
           <br>
           <br>
           <span>Diversified Dementia Care</span>
@@ -77,7 +64,7 @@
       <div class="proj" data-aos="zoom-in" data-aos-duration="500">
         <img src="../assets/Image/chickenstop.png" alt="thumbnail">
         <p data-aos="zoom-in-up" data-aos-duration="1000" style="background:#5f27cd;">
-          <a href="https://chickenstop.netlify.app/#/" target="_blank">Link</a>
+          <a href="https://chickenstop.netlify.app/#/" target="_blank">View</a>
           <br>
           <br>
           <span>Chicken Stop</span>
@@ -86,7 +73,7 @@
       <div class="proj" data-aos="zoom-in" data-aos-duration="500">
         <img src="../assets/Image/swf_solutions.png" alt="thumbnail">
         <p data-aos="zoom-in-up" data-aos-duration="1000" style="background:#b71540;">
-          <a href="https://swfsolutions.ca" target="_blank">Link</a>
+          <a href="https://swfsolutionca.netlify.app/" target="_blank">View</a>
           <br>
           <br>
           <span>SWF Solution</span>
@@ -95,7 +82,7 @@
       <div class="proj" data-aos="zoom-in" data-aos-duration="500">
         <img src="../assets/Image/bandyfit.png" alt="thumbnail">
         <p data-aos="zoom-in-up" data-aos-duration="1000" style="background:#0c2461;">
-          <a href="https://bandyfit.netlify.app/" target="_blank">Link</a>
+          <a href="https://bandyfit.netlify.app/" target="_blank">View</a>
           <br>
           <br>
           <span>Bandy Fit</span>
@@ -104,37 +91,10 @@
       <div class="proj" data-aos="zoom-in" data-aos-duration="500">
         <img src="../assets/Image/konia.png" alt="thumbnail">
         <p data-aos="zoom-in-up" data-aos-duration="1000" style="background:#5f27cd;">
-          <a href="https://koniaresourcesltd.com/" target="_blank">Link</a>
+          <a href="https://koniaresourcesltd.com/" target="_blank">View</a>
           <br>
           <br>
           <span>Konia Resources Ltd</span>
-        </p>
-      </div>
-      <div class="proj" data-aos="zoom-in" data-aos-duration="500">
-        <img src="../assets/Image/leilas_garden.png" alt="thumbnail">
-        <p data-aos="zoom-in-up" data-aos-duration="1000" style="background:#be2edd;">
-          <a href="https://leilasgardenofwisdom.com/?cmp_bypass=lgw" target="_blank">Link</a>
-          <br>
-          <br>
-          <span>Leilas Garden</span>
-        </p>
-      </div>
-      <div class="proj" data-aos="zoom-in" data-aos-duration="500">
-        <img src="../assets/Image/nikki_hair.png" alt="thumbnail">
-        <p data-aos="zoom-in-up" data-aos-duration="1000" style="background:#2c2c54">
-          <a href="https://nikkihairstudio.com" target="_blank">Link</a>
-          <br>
-          <br>
-          <span>Nikki Hair Studio</span>
-        </p>
-      </div>
-      <div class="proj" data-aos="zoom-in" data-aos-duration="500">
-        <img src="../assets/Image/planet_soccer.png" alt="thumbnail">
-        <p data-aos="zoom-in-up" data-aos-duration="1000" style="background:#6D214F;">
-          <a href="https://planetsocceracademy.com" target="_blank">Link</a>
-          <br>
-          <br>
-          <span>Planet Soccer</span>
         </p>
       </div>
 
@@ -315,16 +275,19 @@ export default {
         }
 
         .welcome_btn {
-          margin: 40px auto;
           color: white;
-          text-align: center;
-          justify-content: center;
-          align-items: center;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
           a {
-            @include Button;
-            background: white;
-            padding: 13px 20px;
-            margin: 20px;
+             background: white;
+            border-radius: 2rem;
+            margin: 30px auto;
+            width: 200px;
+            border: 2px solid black;
+
+            padding: 10px;
+            cursor: pointer;
             color: #1B187D;
             &:hover {
               background: darken(white, 20%);
@@ -402,7 +365,7 @@ export default {
   .skills-b {
     text-align: center;
     padding: 20px;
-    width: 60%;
+    width: 70%;
     border-radius: 6px;
     background: #f1f2f6;
     margin: 0 auto;
@@ -413,7 +376,7 @@ export default {
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
     img {
-      justify-content: space-between;
+      justify-content: space-around;
       width: 50px;
       margin: 20px;
       cursor: pointer;

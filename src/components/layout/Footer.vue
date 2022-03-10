@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
 
-    <h4> &#169;2021 WebPexels
+    <h4> &#169; {{getFullYear()}} WebPexels
       <br>
       <a href="https://icons8.com/"   target="_blank">Icons8.com</a>
     </h4>
@@ -10,7 +10,13 @@
 
 <script>
 export default {
-  name: "Footer"
+  name: "Footer",
+
+  methods: {
+    getFullYear() {
+      return new Date().getFullYear();
+    }
+  }
 }
 </script>
 
